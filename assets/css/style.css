@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  url("../font/Montserrat.otf") format("opentype"),;
+  src: url("../font/Montserrat.otf") format("opentype");
 }
 
 body {
@@ -21,185 +21,199 @@ body {
   height: auto;
   display: flex;
   margin: 5% auto;
-  box-shadow: 2px 2px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar {
-	width: 35%;
-	background-color: #0076fe;
+  width: 35%;
+  background-color: #0076fe;
 }
 
 .main {
-	width: 65%;
-	background-color: #e6e6e8;
-	padding: 25px;
+  width: 65%;
+  background-color: #e6e6e8;
+  padding: 25px;
 }
 
 div.me {
-	width: 100%;
-	background: url(../img/me.png);
-	background-size: cover;
-	height: 300px;
+  width: 100%;
+  background: url(../img/me.png);
+  background-size: cover;
+  height: 300px;
 }
 
 div.iam {
-	padding: 10%;
-	background-color: inherit;
-	color: white;
+  padding: 10%;
+  background-color: inherit;
+  color: white;
 }
 
-div.iam h1{
-	font-size: 2rem;
-	text-transform: uppercase;
+div.iam h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 div.iam p {
-	margin: 0.5rem 0 0 0;
-	text-transform: capitalize;
+  margin: 0.5rem 0 0 0;
+  text-transform: capitalize;
 }
 
-div.side-content {	
-	padding: 10%;
-	color: white;
+div.side-content {
+  padding: 10%;
+  color: white;
 }
 
 div.contact-item {
-	font-size: 11px;
-	line-height: 22px;
-	letter-spacing: 0.1rem;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: 0.1rem;
 }
 
 .contact-icon {
-	font-size: 1rem;
-	margin-right: 0.1rem;
+  font-size: 1rem;
+  margin-right: 0.1rem;
 }
 
-div.contact-item a{
-	color: inherit;
-	text-decoration: none;
+div.contact-item a {
+  color: inherit;
+  text-decoration: none;
 }
 
 div.contact-item a:hover {
-	color: #ddd;
+  color: #ddd;
 }
 
 .color-white {
-	color: white;
+  color: white;
 }
 
 hr.sidebar-border {
-	height: 2px;
-	background:#ffffff;
-	width: 80%;
-	margin: 0 10%;
+  height: 2px;
+  background: #ffffff;
+  width: 80%;
+  margin: 0 10%;
 }
 
 div.side-content h2 {
-	font-size: 1rem;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .flex {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .skill-item {
-	flex-grow: 6;
-	font-size: 14px;
-	text-transform: capitalize;
+  flex-grow: 6;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .skill-star {
-	text-align: right;
+  text-align: right;
 }
 
 .star-disabled {
-	color: #111;
+  color: #111;
 }
 
 .hobby {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 .hobby-item {
-	font-size: 3rem;
-	cursor: pointer;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio a {
+  color: white;
+}
+
+.portfolio-item {
+  font-size: 3rem;
+  cursor: pointer;
 }
 
 div.main h2 {
-	font-size: 3rem;
-	margin: 20% 0 5% 0;
-	text-transform: uppercase;
+  font-size: 3rem;
+  margin: 20% 0 5% 0;
+  text-transform: uppercase;
 }
 
 .bold {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .regular {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 hr.main-border {
-	height: 2px;
-	border: 0;
-	background: #111;
+  height: 2px;
+  border: 0;
+  background: #111;
 }
 
 .main-content {
-	margin: 5% 0;
+  margin: 5% 0;
 }
 
 div.main-content h3 {
-	font-size: 1.2rem;
-	text-transform: uppercase;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 div.main-content p {
-	margin: 0.5rem 0;
-	font-size: 14px;
-	text-align: justify;
-	line-height: 22px;
+  margin: 0.5rem 0;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
 }
 
-div.main-content ul li{
-	list-style: none;
-	margin: 0.5rem 0;
-	font-size: 14px;
-	text-align: left;
-	line-height: 22px;
+div.main-content ul li {
+  list-style: none;
+  margin: 0.5rem 0;
+  font-size: 14px;
+  text-align: left;
+  line-height: 22px;
 }
-
 
 @media (max-width: 800px) {
-	.container {
-		width: 100%;
-		display: block;
-		margin: 0;
-	}
-	.sidebar {
-		width: 100%;
-	}
-	.main {
-		width: 100%;
-	}
+  .container {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+  }
 
-	div.iam {
-		text-align: center;
-	}
+  div.iam {
+    text-align: center;
+  }
 
-	div.main h2 {
-		display: none;
-	}
+  div.main h2 {
+    display: none;
+  }
 
-	div.main-content h3 {
-		font-size: 1rem;
-	}
+  div.main-content h3 {
+    font-size: 1rem;
+  }
 }
