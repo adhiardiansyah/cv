@@ -130,7 +130,6 @@ div.side-content h2 {
 
 .hobby-item {
   font-size: 3rem;
-  cursor: pointer;
 }
 
 .portfolio {
@@ -141,6 +140,7 @@ div.side-content h2 {
 
 .portfolio a {
   color: white;
+  text-decoration: none;
 }
 
 .portfolio-item {
