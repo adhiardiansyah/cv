@@ -122,13 +122,13 @@ div.side-content h2 {
   color: #111;
 }
 
-.hobby {
+.technology {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
 }
 
-.hobby-item {
+.technology-item {
   font-size: 3rem;
 }
 
