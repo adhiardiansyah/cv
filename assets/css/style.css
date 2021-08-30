@@ -130,6 +130,7 @@ div.side-content h2 {
 
 .technology-item {
   font-size: 3rem;
+  cursor: pointer;
 }
 
 .portfolio {
