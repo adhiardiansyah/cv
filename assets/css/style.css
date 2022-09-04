@@ -193,6 +193,20 @@ div.main-content ul li {
   line-height: 22px;
 }
 
+div.main-content ol li {
+  list-style: auto;
+  margin: 0.5rem 0;
+  font-size: 14px;
+  text-align: left;
+  line-height: 22px;
+}
+
+div.main-content a strong {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
 @media (max-width: 800px) {
   .container {
     width: 100%;
