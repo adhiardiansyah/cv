@@ -1,302 +1,465 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adhi Ardiansyah - CV</title>
+    <style>
+      :root {
+        --primary: #2c3e50;
+        --secondary: #34495e;
+        --accent: #3498db;
+        --light-bg: #eef3f8;
+        --text: #222;
+        --muted: #777;
+        --white: #fff;
+        --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        --card-hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      }
 
-<head>
-	<title>Curriculum Vitae - Adhi Ardiansyah</title>
-	<meta charset="utf-8">
-	<meta name="author" content="Adhi Ardiansyah">
-	<meta name="description" content="Curriculum Vitae Adhi Ardiansyah">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="shortcut icon" href="assets/img/icon.png">
-	<script type="text/javascript" src="assets/js/all.js"></script>
-</head>
+      /* Import Montserrat locally */
+      @font-face {
+        font-family: "Montserrat";
+        src: url("assets/font/Montserrat.otf") format("opentype");
+        font-weight: normal;
+        font-style: normal;
+      }
 
-<body>
-	<div class="container">
-		<div class="sidebar">
-			<div class="me"></div>
-			<div class="iam">
-				<h3>ADHI ARDIANSYAH</h3>
-			</div>
-			<hr class="sidebar-border">
-			<div class="side-content">
-				<div class="contact-item">
-					<i class="contact-icon fa fa-envelope">
-					</i>
-					<a target="_blank" href="mailto:adhiardiansyah23.gmail.com">adhiardiansyah23.gmail.com</a>
-				</div>
-				<div class="contact-item">
-					<i class="contact-icon fa fa-globe"></i>
-					<a target="_blank" href="https://adhiardiansyah.github.io">adhiardiansyah.github.io</a>
-				</div>
-				<div class="contact-item">
-					<i class="contact-icon fab fa-github"></i>
-					<a target="_blank" href="https://github.com/adhiardiansyah/">Adhi Ardiansyah</a>
-				</div>
-				<div class="contact-item">
-					<i class="contact-icon fab fa-linkedin"></i>
-					<a target="_blank" href="https://www.linkedin.com/in/adhiardiansyah/">Adhi Ardiansyah</a>
-				</div>
-				<div class="contact-item">
-					<i class="contact-icon fa fa-home"></i>
-					Karanganyar
-				</div>
-			</div>
-			<hr class="sidebar-border">
-			<div class="side-content skill">
-				<h2>SOFTSKILLS</h2>
-				<div class="flex">
-					<span>Discipline</span>
-					<span>Teamwork</span>
-					<span>Communication</span>
-					<span>Responsibility</span>
-					<span>Problem Solving</span>
-					<span>Team Leadership</span>
-				</div>
-			</div>
-			<hr class="sidebar-border">
-			<div class="side-content skill">
-				<h2>TECH STACKS</h2>
-				<div class="technology" align="center">
-					<span>HTML</span>
-					<span>CSS</span>
-					<span>jQuery</span>
-				</div>
-				<div class="technology" align="center">
-					<span>Go</span>
-					<span>TypeScript</span>
-					<span>JavaScript</span>
-					<span>PHP</span>
-				</div>
-				<div class="technology" align="center">
-					<span>Gin</span>
-					<span>Express.js</span>
-					<span>React</span>
-					<span>Laravel</span>
-				</div>
-				<div class="technology" align="center">
-					<span>Bootstrap</span>
-					<span>Node.js</span>
-					<span>Tailwind CSS</span>
-				</div>
-				<div class="technology" align="center">
-					<span>MySQL</span>
-					<span>PostgreSQL</span>
-					<span>MongoDB</span>
-				</div>
-				<div class="technology" align="center">
-					<span>Elasticsearch</span>
-					<span>Redis</span>
-					<span>DynamoDB</span>
-				</div>
-				<div class="technology" align="center">
-					<span>Git</span>
-					<span>Google Pub/Sub</span>
-					<span>Docker</span>
-				</div>
-			</div>
-			<hr class="sidebar-border">
-			<div class="side-content skill">
-				<h2>CERTIFICATIONS</h2>
-				<div class="flex">
-					<a target="_blank"
-						href="https://drive.google.com/file/d/1Tl-OwMkBSTU-yO_eqfY4msrFUZ-TZSL0/view?usp=sharing"
-						class="color-white">BNSP - Programmer</a>
-					<a target="_blank" href="https://www.hackerrank.com/certificates/636fefd9448b"
-						class="color-white">Hackerrank - Go (Intermediate)</a>
-					<a target="_blank" href="https://www.hackerrank.com/certificates/1205f2891fca"
-						class="color-white">Hackerrank - JavaScript (Basic)</a>
-					<a target="_blank" href="https://www.dicoding.com/certificates/JLX17JOLGX72"
-						class="color-white">Dicoding - Belajar Dasar Google Cloud</a>
-				</div>
-			</div>
-		</div>
-		<div class="main">
-			<h2>CURRICULUM <br><span class="regular">VITAE</span></h2>
-			<hr class="main-border">
-			<div class="main-content">
-				<h3>
-					<i class="fas fa-user"></i>&nbsp;
-					ABOUT ME
-				</h3>
-				<p>
-					A software engineer with 3 years of experience working in the information technology and services
-					industry. Graduated from Universitas Sebelas Maret majoring in Informatics Engineering. Interested
-					in software development.
-				</p>
-			</div>
-			<hr class="main-border">
-			<div class="main-content">
-				<h3>
-					<i class="fas fa-briefcase"></i>&nbsp;
-					Experience
-				</h3>
-				<ul>
-					<li>
-						<div class="space-between">
-							<strong>PCS Payment - Lead Back End Developer</strong>
-							<span>May 2024 - Present</span>
-						</div>
-						<p>Led a team of back-end developers in designing, implementing, and scaling back-end services.
-						</p>
-					</li>
-					<li>
-						<div class="space-between">
-							<strong>PCS Payment - Back End Developer</strong>
-							<span>Jul 2023 - May 2024</span>
-						</div>
-						<p>Developed internal projects that are being used by the sales, human resources, and asset
-							management departments.</p>
-					</li>
-					<li>
-						<div class="space-between">
-							<strong>Greget Kreatif - Software Engineer</strong>
-							<span>Mar 2023 - Aug 2023</span>
-						</div>
-						<p>Hired as freelancer to build a medical record product.</p>
-					</li>
-					<li>
-						<div class="space-between">
-							<strong>Refactory - Software Engineer</strong>
-							<span>Nov 2021 - Feb 2023</span>
-						</div>
-						<p>Projects: Gamatechno, BPN KALTIM, MNC Mister Aladin, Lauretta.io (Singapore), Biofarma,
-							RCTI+, Titipaja, Hanoman.</p>
-					</li>
-					<li>
-						<div class="space-between">
-							<strong>Refactory - Back End Developer</strong>
-							<span>Aug 2021 - Nov 2021</span>
-						</div>
-						<p>Online internship collaboration between Refactory and
-							Universitas Sebelas Maret. Built RESTful API using Go and
-							PostgreSQL.</p>
-					</li>
-					<li>
-						<div class="space-between">
-							<strong>Global Millennial Group - Web Developer</strong>
-							<span>Sept 2021 - Nov 2021</span>
-						</div>
-						<p>Develop websites for some programs under the company such as Be Global Indonesia and Sebulan
-							Menjadi.</p>
-					</li>
-				</ul>
-			</div>
-			<hr class="main-border">
-			<div class="main-content">
-				<h3>
-					<i class="fas fa-graduation-cap"></i>&nbsp;
-					EDUCATION
-				</h3>
-				<ul>
-					<li>
-						<div class="space-between">
-							<strong>Associate Degree in Computer - Universitas Sebelas Maret</strong>
-							<span>2019 - 2022</span>
-						</div>
-						GPA : 3.88
-					</li>
-				</ul>
-			</div>
-			<hr class="main-border">
-			<div class="main-content">
-				<h3>
-					<i class="fa fa-globe"></i>&nbsp;
-					PORTFOLIO
-				</h3>
-				<ul>
-					<li>
-						<a href="https://kerjayuk.pcsindonesia.com/" target="_blank">
-							<strong>KerjaYuk!</strong>
-						</a>
-						<br>
-						<p>
-							KerjaYuk! is a web-based application used for employee
-							attendance. KerjaYuk! equipped with features to make it easier
-							for employees to submit reimbursement, overtime, permission
-							and sickness so that, this application is expected to make it easier
-							for HRGAF to record and report later.
-						</p>
-					</li>
-					<li>
-						<a href="https://invera.pcsindonesia.com" target="_blank">
-							<strong>INVERA</strong>
-						</a>
-						<br>
-						<p>
-							Control and monitor the company's inventory and assets.
-						</p>
-					</li>
-					<li>
-						<a href="https://tap.pcsindonesia.com" target="_blank">
-							<strong>TAP</strong>
-						</a>
-						<br>
-						<p>
-							A platform used by sales team to submit their merchant acquisition's form.
-						</p>
-					</li>
-					<li>
-						<a href="https://tap-wa.pcsindonesia.com" target="_blank">
-							<strong>TAP Admin</strong>
-						</a>
-						<br>
-						<p>
-							Track and monitor sales team's progress based on their form submissions.
-						</p>
-					</li>
-					<li>
-						<a href="https://app.hisya.id" target="_blank">
-							<strong>Hisya Medical Record</strong>
-						</a>
-						<br>
-						<p>
-							A medical record application.
-						</p>
-					</li>
-					<li>
-						<a href="https://demo.lauretta.solutions" target="_blank">
-							<strong>Lauretta Property Management (Singapore)</strong>
-						</a>
-						<br>
-						<p>
-							Lauretta Property Management App is a dashboard that will consume data from 1 shopping malls
-							cameras and use it to generate dashboards for property management and retail analytics.
-						</p>
-					</li>
-					<li>
-						<a href="https://www.moca.aladinmall.id" target="_blank">
-							<strong>Aladin Mall Back Office & Seller Center</strong>
-						</a>
-						<br>
-						<p>
-							E-Commerce application on the Admin and Seller side for Aladin Mall by Misteraladin (MNC).
-						</p>
-					</li>
-					<li>
-						<a href="https://siapukur.atrbpnkaltim.net" target="_blank">
-							<strong>BPN KALTIM (SIAP UKUR, LOKET ONLINE, PTSL)</strong>
-						</a>
-						<br>
-						<p>
-							An application that aims to facilitate the management of measurement files, as an
-							alternative strategy to reduce obstacles that may occur in measurement work.
-						</p>
-					</li>
-					<li>
-						<a href="https://plo-btn.eoviz.com" target="_blank">
-							<strong>Paperless Office</strong>
-						</a>
-						<br>
-						<p>
-							Electoric Office application to reduce paper usage.
-						</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</body>
+      /* BODY */
+      body {
+        font-family: "Montserrat", Arial, sans-serif;
+        line-height: 1.7;
+        margin: 0;
+        padding: 0;
+        background: var(--light-bg);
+        color: var(--text);
+      }
 
+      /* HEADER */
+      header {
+        text-align: center;
+        padding: 3rem 1rem 2.5rem;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: var(--white);
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        position: relative;
+      }
+
+      header img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid var(--white);
+        margin-bottom: 1rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease;
+      }
+
+      header img:hover {
+        transform: scale(1.07);
+      }
+
+      header h1 {
+        margin: 0.6rem 0 0.3rem;
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      header p {
+        margin: 0.3rem 0;
+        font-size: 1rem;
+      }
+
+      header a {
+        color: #ecf0f1;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      header a:hover {
+        color: var(--accent);
+      }
+
+      /* CONTACT SECTION */
+      .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin-top: 1.2rem;
+        align-items: center;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 0.4rem 0.8rem;
+        border-radius: 6px;
+        transition: background 0.3s ease, transform 0.2s ease;
+      }
+
+      .contact-item:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+
+      .contact-item i {
+        color: var(--accent);
+        font-size: 1.2rem;
+        width: 22px;
+        text-align: center;
+      }
+
+      /* Desktop: 2 rows */
+      @media (min-width: 768px) {
+        .contact {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          gap: 1rem 3rem;
+          justify-content: center;
+        }
+      }
+
+      /* MAIN CONTENT */
+      main {
+        max-width: 950px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      section {
+        margin-bottom: 2rem;
+        background: var(--white);
+        padding: 2rem;
+        border-radius: 14px;
+        box-shadow: var(--card-shadow);
+        border-left: 5px solid var(--accent);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      section:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--card-hover-shadow);
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+        color: var(--accent);
+        border-bottom: 2px solid var(--accent);
+        padding-bottom: 0.4rem;
+        margin-bottom: 1.4rem;
+      }
+
+      section p {
+        text-align: justify;
+      }
+
+      article {
+        margin-bottom: 1.5rem;
+      }
+
+      .job-title {
+        font-weight: bold;
+        font-size: 1.15rem;
+        color: var(--secondary);
+      }
+
+      .date {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 0.6rem;
+      }
+
+      ul {
+        padding-left: 1.3rem;
+        margin: 0.5rem 0;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      /* SKILLS */
+      .skills-list li {
+        margin-bottom: 0.6rem;
+      }
+
+      /* CERTIFICATIONS */
+      .certifications a {
+        display: inline-block;
+        background: var(--accent);
+        color: var(--white);
+        padding: 0.45rem 0.9rem;
+        border-radius: 6px;
+        margin: 0.3rem;
+        font-size: 0.9rem;
+        text-decoration: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: background 0.3s ease, transform 0.2s ease;
+      }
+
+      .certifications a:hover {
+        background: #217dbb;
+        transform: translateY(-2px);
+      }
+
+      /* FOOTER */
+      footer {
+        text-align: center;
+        padding: 1.5rem;
+        background: var(--primary);
+        color: #eee;
+        font-size: 0.9rem;
+        margin-top: 2.5rem;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      /* MOBILE */
+      @media (max-width: 600px) {
+        header img {
+          width: 110px;
+          height: 110px;
+        }
+
+        header h1 {
+          font-size: 1.7rem;
+        }
+
+        section {
+          padding: 1.3rem;
+        }
+
+        .job-title {
+          font-size: 1rem;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/me-3.png" alt="Adhi Ardiansyah profile photo" />
+      <h1>Adhi Ardiansyah</h1>
+
+      <div class="contact">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:adhiardiansyah23@gmail.com"
+            >adhiardiansyah23@gmail.com</a
+          >
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-globe"></i>
+          <a href="https://adhiardiansyah.github.io" target="_blank"
+            >adhiardiansyah.github.io</a
+          >
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/adhiardiansyah" target="_blank"
+            >github.com/adhiardiansyah</a
+          >
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://linkedin.com/in/adhiardiansyah" target="_blank"
+            >linkedin.com/in/adhiardiansyah</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>SUMMARY</h2>
+        <p>
+          A software engineer with 4 years of experience working in the
+          information technology and services industry. Graduated from
+          Universitas Sebelas Maret majoring in Informatics Engineering.
+          Interested in software development.
+        </p>
+      </section>
+
+      <section>
+        <h2>WORK EXPERIENCE</h2>
+        <article>
+          <p class="job-title">Lead Back End Developer - PCS Payment</p>
+          <p class="date">May 2024 – Present</p>
+          <ul>
+            <li>
+              Led a team of back-end developers in designing, implementing, and
+              scaling back-end services.
+            </li>
+            <li>
+              Collaborated with front-end, QA, UI/UX, and project managers to
+              align on goals and deliver high-quality solutions.
+            </li>
+            <li>
+              Oversaw migration from a monolithic Laravel system to a
+              Golang-based monorepo, improving performance, reliability, and
+              maintainability.
+            </li>
+            <li>
+              Optimized queries (15s → 1s), integrated Elasticsearch, Pub/Sub,
+              and third-party services.
+            </li>
+            <li>
+              Mentored team, enforced coding standards, CI/CD, and unit testing.
+            </li>
+            <li>
+              Conducted weekly meetings to gather team reports.
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="job-title">Back End Developer - PCS Payment</p>
+          <p class="date">July 2023 – May 2024</p>
+          <ul>
+            <li>
+              Built internal projects for sales, HR, and asset management
+              departments.
+            </li>
+            <li>Designed backend repo structure, database schema, and APIs.</li>
+            <li>
+              Implemented cron jobs, WebSockets, and Pub/Sub integrations.
+            </li>
+            <li>
+              Maintained dev/staging servers and automated CI/CD pipelines with
+              GitHub Actions.
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="job-title">Software Engineer - Greget Kreatif</p>
+          <p class="date">March - August 2023</p>
+          <ul>
+            <li>Hired as freelancer to build a medical record product.</li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="job-title">Software Engineer - Refactory</p>
+          <p class="date">November 2021 - February 2023</p>
+          <ul>
+            <li>
+              Projects: Gamatechno, BPN KALTIM, MNC Mister Aladin, Lauretta.io
+              (Singapore), Biofarma, RCTI+, Titipaja, Hanoman.
+            </li>
+            <li>
+              Collaborated with front-end, QA, UI/UX, and project managers to
+              align on goals and deliver high-quality solutions.
+            </li>
+            <li>
+              Carried out tasks assigned by the project manager, including
+              research and development.
+            </li>
+            <li>
+              Attended daily stand-up meetings to discuss progress, challenges,
+              and plans for the day.
+            </li>
+            <li>
+              Reported to the manager regarding the progress of assigned
+              projects.
+            </li>
+            <li>
+              Mentored newcomers in the company's bootcamp to help them become
+              familiar with the company's work environment.
+            </li>
+            <li>Participated in company workshops as a speaker.</li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="job-title">Back End Developer - Refactory</p>
+          <p class="date">August - November 2021</p>
+          <ul>
+            <li>Online internship collaboration between Refactory and Universitas Sebelas Maret. Built RESTful API using Go and PostgreSQL.</li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="job-title">Web Developer - Global Millennial Group</p>
+          <p class="date">September - November 2021</p>
+          <ul>
+            <li>Develop websites for some programs under the company such as Be Global Indonesia and Sebulan Menjadi.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2>EDUCATION</h2>
+        <p>
+          <strong>Associate Degree in Computer</strong>, Universitas Sebelas
+          Maret – 2022<br />
+          GPA: 3.88/4.00
+        </p>
+      </section>
+
+      <section>
+        <h2>SKILLS</h2>
+        <ul class="skills-list">
+          <li>
+            <strong>Programming:</strong> Go, PHP, JavaScript, TypeScript, HTML,
+            CSS
+          </li>
+          <li>
+            <strong>Frameworks & Libraries:</strong> Gin, Laravel, Node.js,
+            Express.js, jQuery, React, Bootstrap, Tailwind CSS
+          </li>
+          <li>
+            <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, DynamoDB,
+            Redis, Elasticsearch
+          </li>
+          <li><strong>DevOps & Tools:</strong> Git, Docker, Google Pub/Sub</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>CERTIFICATIONS</h2>
+        <div class="certifications">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1Tl-OwMkBSTU-yO_eqfY4msrFUZ-TZSL0/view?usp=sharing"
+            >BNSP - Programmer</a
+          >
+          <a
+            target="_blank"
+            href="https://www.hackerrank.com/certificates/636fefd9448b"
+            >HackerRank - Go (Intermediate)</a
+          >
+          <a
+            target="_blank"
+            href="https://www.hackerrank.com/certificates/1205f2891fca"
+            >HackerRank - JavaScript (Basic)</a
+          >
+          <a
+            target="_blank"
+            href="https://www.dicoding.com/certificates/JLX17JOLGX72"
+            >Dicoding - Belajar Dasar Google Cloud</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Adhi Ardiansyah</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
